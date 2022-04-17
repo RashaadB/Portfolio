@@ -1,0 +1,16 @@
+.i{
+    display:flex;
+    height:50vh;
+    background-color: lightblue;
+
+}
+.i-left{
+    flex:1;
+}
+.i-right{
+    flex:1;
+}
+
+.i-left-wrapper{
+    padding:50px;
+}
