@@ -1,6 +1,7 @@
 import React from "react";
 import Projects from "../Projects/Projects";
 import "./projectList.css";
+import { projects } from "../../data";
 
 
 const ProjectList = () => {
@@ -14,11 +15,11 @@ const ProjectList = () => {
         </p>
       </div>
       <div className="pl-list">
-        <Projects />
-        <Projects />
-        <Projects />
-        <Projects />
-        <Projects />
+        {projects.map(item=>(
+
+      <Projects key={item.id} img={item.img} link={item.link} />
+        ))}
+        
       </div>
     </div>
   );
