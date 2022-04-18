@@ -1,20 +1,30 @@
-import {useRef} from "react";
-import "./contact.css"
+import { useRef } from "react";
+import "./contact.css";
 // import emailjs from '@emailjs/browser';
 
-
 const Contact = () => {
-    const formRef = useRef()
+  const formRef = useRef();
+  const [done,setDone] = useState(fasle)
 
-    const handleSubmit = (e)=>{
-        e.preventDefault();
-        emailjs.sendForm('service_qrecwmk', 'template_hvbpcl6', formRef.current, '4ucbsV8iwG-QtEoLS')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
-    }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_qrecwmk",
+        "template_hvbpcl6",
+        formRef.current,
+        "4ucbsV8iwG-QtEoLS"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setDone(true)
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   return (
     <div className="c">
@@ -35,7 +45,6 @@ const Contact = () => {
               <img src="" alt="" className="c-icon" />
               rsamuelb14@gmail.com
             </div>
-            
           </div>
         </div>
         <div className="c-right">
@@ -47,8 +56,9 @@ const Contact = () => {
             <input type="text" placeholder="Name" name="user_name" />
             <input type="text" placeholder="Subject" name="user_subject" />
             <input type="text" placeholder="Email" name="user_email" />
-            <textarea rows={5} placeholder="Message" name="message"/>
+            <textarea rows={5} placeholder="Message" name="message" />
             <button>Submit</button>
+            {done && "Thank you.."}
           </form>
         </div>
       </div>
