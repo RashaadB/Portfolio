@@ -4,7 +4,7 @@ import "./contact.css";
 
 const Contact = () => {
   const formRef = useRef();
-  const [done,setDone] = useState(fasle)
+  const [done, setDone] = useState(fasle);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -18,7 +18,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          setDone(true)
+          setDone(true);
         },
         (error) => {
           console.log(error.text);
