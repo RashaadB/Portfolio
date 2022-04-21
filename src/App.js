@@ -13,15 +13,11 @@ function App() {
   const darkMode = theme.state.darkMode
   return (
     <div className="App" style={{backgroundColor: "red", color: "white"}}>
-      
       <Toggle />
       <Intro />
-     
       <About />
       <Projects />
       <Contact />
-      
-      
     </div>
   );
 }
