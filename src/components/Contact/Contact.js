@@ -1,10 +1,11 @@
-import { useRef } from "react";
+import { useContext, useRef, useState } from "react";
 import "./contact.css";
-// import emailjs from '@emailjs/browser';
+import emailjs from "emailjs-com";
+import { ThemeContext } from "../../context";
 
 const Contact = () => {
   const formRef = useRef();
-  const [done, setDone] = useState(fasle);
+  const [done, setDone] = useState(false);
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
 
