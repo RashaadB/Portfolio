@@ -19,22 +19,26 @@
 .a-right {
   flex: 1;
   position: relative;
-  bottom: 80px;
+  bottom: 60px;
+  left: 170px;
+  
+ 
 }
 .a-card.bg {
   position: absolute;
-  top: 80px;
-  left: 100px;
+  top: 25px;
+  left: 170px;
   background-color: #333;
 }
 
 .a-card {
-  width: 60%;
-  height: 70vh;
-  border-radius: 30px;
+  width: 65%;
+  height: 80vh;
+  
+  border-radius: 10px;
   position: relative;
   overflow: hidden;
-  right: 10px;
+  left: 90px;
   bottom: 15px;
 }
 
@@ -59,6 +63,7 @@
 .a-sub {
   margin: 20px 0px;
   font-size: 20px;
+  
 }
 
 .a-desc {

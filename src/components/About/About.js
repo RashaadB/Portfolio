@@ -7,24 +7,45 @@ const About = () => {
       <div className="a-left">
         <div className="a-card bg"></div>
         <div className="a-card">
-          <img src="./img/code.background.jpg" alt="" className="a-img" />
+          <a href="Resume.pdf" download="Rashaad Bracley.pdf">
+          <img  src="./img/resume_pic.png" alt="" className="a-img" />
+          </a>
         </div>
       </div>
       <div className="a-right">
-        <h1 className="a-title">About Me</h1>
+        <h1 className="a-title">Languages</h1>
         <p className="a-sub">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          From static to full-stack:
+          <br />
+
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Node.Js</li>
+            <li>React.JS</li>
+            <li>MySQL</li>
+            <li>Current learning JAVA</li>
+          </ul>
+          <br/>
+          Learning is the Goal. <br/> && <br/> Growth is the Success.
+
+          
+         
         </p>
+        
         <p className="a-desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, magni.
+          (Click on my Resume to Download)
         </p>
-        <div className="a-award">
-           <img src="./img/me.jpeg" alt="" className="a-award-img" /> 
-           <div className="a-award-texts">
-               <h4 className="a-award-title">Lorem ipsum dolor sit amet.</h4>
-               <p className="a-ward-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, tenetur.</p>
-           </div>
-        </div>
+        {/* <div className="a-award">
+          <img src="./img/me.jpeg" alt="" className="a-award-img" />
+          <div className="a-award-texts">
+            <h4 className="a-award-title">Lorem ipsum dolor sit amet.</h4>
+           
+            
+            
+          </div>
+        </div> */}
       </div>
     </div>
   );
