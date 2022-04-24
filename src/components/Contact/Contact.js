@@ -34,20 +34,26 @@ const Contact = () => {
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Lets discuss your project</h1>
+          <h1 className="c-title">Contact me </h1>
           <div className="c-info">
             <div className="c-info-item">
-              <img src="" alt="" className="c-icon" />
-              rsamuelb14@gmail.com
+              <img src="./img/iphone_icon.jpeg" alt="" className="c-icon" />
+              336-701-7858
             </div>
             <div className="c-info-item">
-              <img src="" alt="" className="c-icon" />
+              <img
+                href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+                src="./img/gmail_pic.png"
+                alt=""
+                className="c-icon"
+                target="_blank"
+              />
               rsamuelb14@gmail.com
             </div>
-            <div className="c-info-item">
+            {/* <div className="c-info-item">
               <img src="" alt="" className="c-icon" />
               rsamuelb14@gmail.com
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="c-right">
