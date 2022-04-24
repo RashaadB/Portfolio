@@ -15,7 +15,7 @@ const ProjectList = () => {
         
         {/* <img className="git" src="./img/git_icon.png" alt="" /> */}
 
-        <a  href="https://github.com/RashaadB" target="_blank"><button>Github</button></a>
+        <a  href="https://github.com/RashaadB" target="_blank" rel="noreferrer"><button>Github</button></a>
         
         
       </div>

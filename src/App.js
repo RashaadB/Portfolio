@@ -19,11 +19,13 @@ function App() {
         color: darkMode && "white",
       }}
     >
+      
       <Toggle />
       <Intro />
       <About />
       <Projects />
       <Contact />
+      
     </div>
   );
 }
