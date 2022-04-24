@@ -1,5 +1,4 @@
 import React from "react";
-import Contact from "../Contact/Contact";
 import "./projects.css";
 
 const Projects = ({img,link,name}) => {
