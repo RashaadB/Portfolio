@@ -8,19 +8,20 @@ const ProjectList = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
-        <h1 className="pl-title">create & inspire</h1>
+        <h1 className="pl-title">My Projects</h1>
         <p className="pl-desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aut
-          inventore sed quas obcaecati quia?
+         From my first ever coding project to my most recent, come see my growth. From static to full stack.
         </p>
       </div>
       <div className="pl-list">
         {projects.map(item=>(
 
       <Projects key={item.id} img={item.img} link={item.link} />
+      
         ))}
         
       </div>
+     
     </div>
   );
 };

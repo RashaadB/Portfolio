@@ -5,7 +5,11 @@
   align-items: center;
   text-align: center;
 }
-
+.github-button{
+    margin: 10px;
+    
+    border-radius: 10%;
+}
 .pl-texts{
     width: 65%;
 }
@@ -16,6 +20,7 @@
 }
 .pl-desc{
     margin: 20px 0px;
+    font-size: 20px;
 }
 .pl-list{
     width: 100%;

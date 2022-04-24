@@ -1,8 +1,8 @@
 .p {
   width: 30%;
-  height: 40vh;
+  height: 45vh;
   margin: 20px 10px;
-  border: 2px solid rgb(243, 242, 242);
+  /* border: 2px solid rgb(243, 242, 242); */
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
 }
@@ -20,13 +20,14 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  margin: 3px;
-  background-color: white;
+  margin: 5px;
+  background-color: rgb(35, 181, 214);
 }
 
 .p-img {
-  /* height: 90%; */
+  height: 70%;
   width: 100%;
+  border-radius: 0px 0px 10px 10px;
   justify-items: center;
 
 }

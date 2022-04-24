@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+}
+
 .a {
   height: 100vh;
   display: flex;
@@ -14,11 +18,13 @@
 }
 .a-right {
   flex: 1;
+  position: relative;
+  bottom: 80px;
 }
 .a-card.bg {
   position: absolute;
-  top: 50px;
-  left: 50px;
+  top: 80px;
+  left: 100px;
   background-color: #333;
 }
 
@@ -28,9 +34,13 @@
   border-radius: 30px;
   position: relative;
   overflow: hidden;
+  right: 10px;
+  bottom: 15px;
 }
 
 .a-img {
+  position: relative;
+  
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -48,10 +58,12 @@
 
 .a-sub {
   margin: 20px 0px;
+  font-size: 20px;
 }
 
 .a-desc {
   font-weight: 300;
+  font-size: 15px;
 }
 
 .a-award {
