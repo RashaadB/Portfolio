@@ -1,7 +1,6 @@
 import React from "react";
 import "./intro.css";
 
-
 const Intro = () => {
   return (
     <div className="i">
@@ -15,19 +14,19 @@ const Intro = () => {
               <div className="i-title-item">JavaScript</div>
               <div className="i-title-item">React.js</div>
               <div className="i-title-item">Node.js</div>
-              <div className="i-title-item">Node.js</div>
-             
+              <div className="i-title-item">mySQL</div>
             </div>
           </div>
           <p className="i-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            
+            Junior software engineer determined to cultivate an endless
+            set of skills throughout my professional coding career for
+            continuous growth and knowledge. Never wanting to stop learning.
           </p>
         </div>
       </div>
       <div className="i-right">
         <div className="i-bg"></div>
-        <img src="./img/me.jpeg" alt="" className="i-img" />
+        <img src="./img/Rashaad_.png" alt="" className="i-img" />
       </div>
     </div>
   );

@@ -16,7 +16,7 @@
   z-index: 2;
 }
 
-.p-circle{
+.p-circle {
   width: 6px;
   height: 6px;
   border-radius: 50%;
@@ -24,21 +24,16 @@
   background-color: white;
 }
 
-.p-img{
+.p-img {
+  /* height: 90%; */
   width: 100%;
-  transition: all 10s ease;
+  justify-items: center;
+
 }
 
-.p:hover .p-img{
-  transform: translateY(-100%);
-}
-
-@media screen and (max-width:480px){
-
-  .p{
+@media screen and (max-width: 480px) {
+  .p {
     width: 40%;
     height: 20vh;
-
   }
-
 }
