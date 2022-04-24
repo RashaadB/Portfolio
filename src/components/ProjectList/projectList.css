@@ -13,7 +13,14 @@
 .pl-texts{
     width: 65%;
 }
-
+/* .git{
+    position: relative;
+    top: 20px;
+    width: 67px;
+    height: 49px;
+    margin-right: 10px;
+    border-radius: 50px;
+} */
 .pl-title{
     font-size: 50px;
     font-weight: 600;

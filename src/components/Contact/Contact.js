@@ -50,10 +50,7 @@ const Contact = () => {
               />
               rsamuelb14@gmail.com
             </div>
-            {/* <div className="c-info-item">
-              <img src="" alt="" className="c-icon" />
-              rsamuelb14@gmail.com
-            </div> */}
+            
           </div>
         </div>
         <div className="c-right">

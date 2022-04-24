@@ -1,19 +1,22 @@
 import React from "react";
 import "./projects.css";
 
-const Projects = ({img,link}) => {
+const Projects = ({img,link,name}) => {
   return (
+    
     <div className="p">
-      <div className="p-browser">
+     <div className="n">{name}</div>
+      <div className="p-browser">    
         <div className="p-circle"></div>
         <div className="p-circle"></div>
         <div className="p-circle"></div>
-      </div>
+      </div>  
       <a href={link} target="_blank" rel="noreferrer">
         <img src={img} alt="" className="p-img"  />
       </a>
-      <button className="github-button">Github</button>
-      <button className="github-button">Website</button>
+      <a href="https://github.com/RashaadB" target="_blank"><button className="github-button">Github</button></a>
+      
+      <a href={link} target="_blank"><button className="github-button">Website</button></a>
     </div>
     
   );
