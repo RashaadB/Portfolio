@@ -27,7 +27,7 @@ export const projects = [
     id: 5,
     name:"Ecommerce",
     img: "./img/ecom_pic.png",
-    link: "link to website",
+    link: "https://exquisite-faloodeh-ab6fc2.netlify.app",
   },
   // {
   //   id: 6,
