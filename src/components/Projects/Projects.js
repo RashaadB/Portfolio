@@ -4,7 +4,7 @@ import "./projects.css";
 const Projects = ({img,link,name}) => {
   return (
     
-    <div className="p">
+    <div id="projects" className="p">
      <div className="n">{name}</div>
       <div className="p-browser">    
         <div className="p-circle"></div>

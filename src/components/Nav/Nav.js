@@ -1,13 +1,19 @@
 import React from "react";
 import "./nav.css";
 
+
+
 function Nav() {
+
+   
   return (
     <nav className="nav">
-      <ul>HOME</ul>
-      <ul>RESUME</ul>
-      <ul>PROJECTS</ul>
-      <ul>CONTACT</ul>
+        <ul><a href="#intro">HOME</a> </ul>
+     <ul><a href="#about">RESUME</a> </ul>
+     <ul><a href="#projects">PROJECTS</a> </ul>
+      <ul><a href="#contact">CONTACT</a> </ul>
+      
+      
     </nav>
   );
 }
