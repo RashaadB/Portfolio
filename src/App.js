@@ -6,6 +6,7 @@ import Contact from "./components/Contact/Contact";
 import Toggle from "./components/toggle/Toggle";
 import { useContext } from "react";
 import { ThemeContext } from "./context";
+import Nav from "./components/Nav/Nav";
 
 function App() {
  
@@ -19,9 +20,11 @@ function App() {
         color: darkMode && "white",
       }}
     >
-      
+       
       <Toggle />
+      <Nav />
       <Intro />
+      
       <About />
       <Projects />
       <Contact />

@@ -5,25 +5,7 @@
   
 }
 
-.nav{
-  position: relative;
-  bottom: 70px;
-  font-size: 30px;
-  display: flex;
-  font-size: 30px;
-  font-weight: bold;
-  
-}
-.nav ul{
-  border-radius: 20px;
-  justify-items: center;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
-  text-align: center;
-  color: rgb(35, 181, 214);
-  
-}
+
 .i-left {
   flex: 1;
   display: flex;
