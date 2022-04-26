@@ -14,8 +14,8 @@ export const projects = [
   {
     id: 3,
     name: "Hope Hacks",
-    img: "hope hacks",
-    link: "hopehacks",
+    img: "./img/hopeHacks.png",
+    link: "https://hope-hacks-final.herokuapp.com/",
   },
   {
     id: 4,

@@ -88,25 +88,25 @@ color: #555;
 margin-bottom: 10px;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:950px) {
+ 
+
   .a{
     flex-direction: column;
-    text-align: center;
-    margin-top: 50px;
+    align-content: center;
+    padding-top: 30%;
+    
   }
-  .a-left{
-    width: 100%;
-  }
-
   .a-card{
-    height: 30vh;
+    position: relative;
+    width: 100%;
+    left: 130px;
   }
-
-  .a-card.bg, .a-award {
-    display: none;
-  }
-
   .a-right{
-    padding: 20px;
+    position: relative;
+    padding-top: 20%;
+    justify-content: center;
+    /* left: 120px; */
+   
   }
 }

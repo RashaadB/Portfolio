@@ -6,6 +6,8 @@
     display: flex;
     font-size: 30px;
     font-weight: bold;
+    color: rgb(35, 181, 214);
+   
     
   }
   .nav ul{
@@ -17,4 +19,11 @@
     text-align: center;
     color: rgb(35, 181, 214);
     
+  }
+
+  @media screen and (max-width:950px){
+    .nav{
+      flex-direction: column;
+      justify-items: center;
+    }
   }

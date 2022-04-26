@@ -88,20 +88,32 @@
  
 }
 
-@media screen and (max-witdh: 480px) {
+@media screen and (max-width: 950px) {
   .i {
+    
     flex-direction: column;
-  }
-
-  .i-left-wrapper {
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
+    margin-top: 10vh;
+    margin-bottom: 30vh;
     text-align: center;
-    height: 100%;
   }
+ .i-desc{
+   position: relative;
+   bottom: 115px;
+   text-align: center;
+   padding: 20%;
+   font-size: 20px;
+ }
+ .i-title-item{
+  justify-content: center;
+  padding-top: 10px; 
+ }
+ .i-img{
+  padding-top: 10%;
+   position: relative;
+   bottom: 70%;
+   left: 20%;
+   
+ }
 
-  .i-desc {
-    display: none;
-  }
+  
 }

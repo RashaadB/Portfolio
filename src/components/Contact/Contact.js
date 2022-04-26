@@ -54,9 +54,10 @@ const Contact = () => {
           </div>
         </div>
         <div className="c-right">
-          <p className="c-desc">
-            <b>What's your story?</b> Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Dolorem maxime excepturi ducimus ab quos nostrum.
+          <p className="c-desc" style={{fontWeight:"bold"}}>
+            Fill out the form to send me an email from my portfolio. 
+            
+            
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input

@@ -1,5 +1,5 @@
 .p {
-  width: 35%;
+  width: 36%;
   height: 65vh;
   margin: 15px 80px;
   /* border: 2px solid rgb(243, 242, 242); */
@@ -13,6 +13,7 @@
 
 .p-browser {
   height: 20px;
+  
   background-color: rgb(243, 242, 242);
   display: flex;
   align-items: center;
