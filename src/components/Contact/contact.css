@@ -80,13 +80,21 @@ button{
     border-radius: 10%;
 }
 
-@media screen and (max-witdh: 480px) {
+@media screen and (max-width: 950px) {
+
+  .c{
+    position: relative;
+    left: 40%;
+    text-align: center;
+    width: 50%;
+  }
   .c-wrapper{
+    align-items: center;
     flex-direction: column;
     padding: 0px 50px;
+   
   }
-
-  .c-title{
+ .c-title{
       font-size: 30px;
   }
 
@@ -100,6 +108,7 @@ button{
   }
 
   form{
+    align-content: center;
     margin-top: 0px;
     display: flex;
     flex-wrap: wrap;
@@ -114,5 +123,5 @@ button{
 
   button{
     margin: 10px;
-  }
+  } 
 }

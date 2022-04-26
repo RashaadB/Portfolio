@@ -22,8 +22,14 @@
   }
 
   @media screen and (max-width:950px){
+    *{
+      margin: 0;
+      padding: 0;
+    }
     .nav{
       flex-direction: column;
       justify-items: center;
+      position: relative;
+      left: 10%;
     }
   }
